@@ -1,38 +1,282 @@
+
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Prayatna Sapkota is a bachelor's student in Geomatics Engineering at Kathmandu University writing about physics, space, technology, and curious questions." />
-  <meta property="og:title" content="Prayatna Sapkota — Personal Site" />
-  <meta property="og:description" content="A personal observatory for maps, physics, space, and unfinished questions." />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <title>Prayatna Sapkota</title>
-  <link rel="icon" href="favicon.svg" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body class="site-shell">
-  <header class="site-nav">
-    <div class="nav-inner">
-      <a class="brand" href="index.html" aria-label="Prayatna Sapkota home"><span class="brand-mark">P</span><span>PRAYATNA </span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">☰</button>
-      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
-        <a href="index.html" data-nav="home">About</a><a href="journal.html" data-nav="journal">Journal</a><a href="projects.html" data-nav="projects">Projects</a><a href="mailto:mail@prayatnasapkota.com.np">Contact ↗</a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090909">
+    <title>Prayatna Sapkota — Geomatics, astronomy &amp; ideas</title>
+    <meta name="description" content="Prayatna Sapkota is a Geomatics Engineering student at Kathmandu University, Nepal, interested in astronomy and physics. Read his conceptual preprint on microbial survival on rogue planets.">
+    <meta name="author" content="Prayatna Sapkota">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://prayatnasapkota.com.np/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prayatnasapkota.com.np/">
+    <meta property="og:title" content="Prayatna Sapkota — Geomatics, astronomy &amp; ideas">
+    <meta property="og:description" content="A research-first personal site. Explore a conceptual hypothesis on microbial dormancy and rogue planets.">
+    <meta property="og:site_name" content="Prayatna Sapkota">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Prayatna Sapkota — Geomatics, astronomy &amp; ideas">
+    <meta name="twitter:description" content="A research-first personal site. Explore a conceptual hypothesis on microbial dormancy and rogue planets.">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Prayatna, home">
+        <span class="brand-mark" aria-hidden="true">P<span>.</span></span>
+        <span>Prayatna</span>
+      </a>
+
+      <button class="menu-toggle" type="button"
+        aria-expanded="false" aria-controls="site-navigation"
+        aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav" id="site-navigation" aria-label="Main navigation">
+        <a href="#about">01 / About</a>
+        <a href="#research">02 / Research</a>
+        <a href="#cv">03 / CV</a>
+        <a href="#contact">04 / Contact</a>
       </nav>
-    </div>
-  </header>
-  <main>
-    <section class="hero"><div class="hero-nebula" aria-hidden="true"></div><div class="hero-overlay" aria-hidden="true"></div><div class="hero-inner page-width">
-      <div class="hero-copy reveal"><p class="eyebrow warm">Kathmandu University / Geomatics Engineering</p><h1>Learning to map the world <em>and question</em> the universe.</h1><p class="hero-intro">I’m Prayatna Sapkota, a bachelor’s student in Geomatics Engineering at Kathmandu University. I’m interested in physics, space, technology, consciousness, uncertainty, and the strange reality of being alive in a universe that offers no easy explanations.</p><div class="button-row"><a class="button button-solid" href="journal.html">Read the journal ↗</a><a class="button button-outline" href="#research">See current work</a></div></div>
-      <div class="hero-portrait reveal reveal-delay-2"><div class="portrait-orbit" aria-hidden="true"></div><figure class="portrait-frame"><img src="assets/prayatna-river.jpg" alt="Prayatna looking across a river" /><figcaption><span>Field observation / river edge</span><small>Still learning how to look.</small></figcaption></figure><div class="coordinates"><span>27°42′ N</span><span>85°19′ E</span></div></div>
-    </div><a class="scroll-cue" href="#about" aria-label="Scroll to about">↓</a></section>
-    <section id="about" class="section page-width about-section"><div class="split-grid"><div class="reveal"><p class="eyebrow">01 / Orientation</p><h2>Studying the world closely, and the universe endlessly.</h2></div><div class="section-copy reveal reveal-delay-1"><p>I’m studying for a bachelor’s degree in Geomatics Engineering at Kathmandu University. The field gives me one way to look at the world: through place, measurement, and the details that make a landscape legible. My curiosity also reaches toward physics, space, intelligence, and whether humanity is actually progressing or just getting better at distraction.</p><p>Physics pulled me in because it doesn’t care about feelings, status, or beliefs. Reality is what it is.</p><div class="interest-grid"><article class="paper-card"><span class="interest-icon">◉</span><h3>Physics</h3><p>Cosmology, rogue planets, entropy, relativity, quantum weirdness. <em>The universe is already insane without adding mythology on top.</em></p></article><article class="paper-card"><span class="interest-icon">⌁</span><h3>Thinking</h3><p>Curiosity matters more than pretending to be smart. Most people defend beliefs. I’d rather investigate ideas.</p></article></div></div></div></section>
-    <section id="research" class="research-section"><div class="page-width split-grid research-grid"><div><p class="eyebrow warm">02 / Independent research · 2026</p><p class="side-note">A question can be<br />a place to begin.</p></div><div class="research-copy"><h2>A Conceptual Hypothesis for Microbial Survival on Rogue Planets</h2><p>I published a conceptual astrobiology hypothesis exploring whether dormant microorganisms could potentially survive interstellar travel aboard rogue planets and later reactivate under favorable conditions in another star system.</p><p>It’s not a claim of proof. It’s a structured framework combining microbial dormancy, planetary ejection, and long-duration interstellar drift.</p><a class="button button-gold" href="https://zenodo.org/records/18859992" target="_blank" rel="noreferrer">Read research paper ↗</a><p class="signature">PRAYATNA SAPKOTA — INDEPENDENT RESEARCHER</p></div></div></section>
-    <section class="section page-width recent-section"><div class="section-heading"><div><p class="eyebrow">03 / From the notebook</p><h2>Recent journals</h2></div><a class="text-link" href="journal.html">See all entries ↗</a></div><div class="recent-grid"><a class="paper-card recent-card" href="journal.html#post-6"><span class="date-label">May 12, 2026</span><h3>Now Life Starts</h3><p>Grade 12 is finished. Now the real journey begins.</p><span class="card-link">Open note ↗</span></a><a class="paper-card recent-card offset-card" href="journal.html#post-5"><span class="date-label">April 5, 2026</span><h3>A Hypothesis I Couldn’t Ignore</h3><p>Last 3 months I didn’t post here. But I wasn’t doing nothing.</p><span class="card-link">Open note ↗</span></a><a class="paper-card recent-card" href="journal.html#post-4"><span class="date-label">April 5, 2026</span><h3>Why I Stopped Waiting to Feel Ready</h3><p>I kept waiting to feel ready. Then I decided to start anyway.</p><span class="card-link">Open note ↗</span></a></div></section>
-    <section id="contact" class="contact-section"><div class="page-width contact-inner"><div><p class="eyebrow warm">04 / Correspondence</p><h2>If you like strange ideas, let’s talk.</h2><p>If you like physics, strange ideas, existential conversations, or just questioning reality in general. Feel free to reach out.</p></div><div class="button-row"><a class="button button-outline" href="mailto:mail@prayatnasapkota.com.np">✉ Send email</a><a class="button button-gold" href="https://signal.me/#eu/DQWrcF0nHfsvhdsGXE6NeDuujot4HZirRwiapg7iBilF1pa9IhpLjKKEA15nIHA4" target="_blank" rel="noreferrer">◉ Signal</a></div></div></section>
-  </main>
-  <footer class="footer page-width"><span>© 2026 Prayatna Sapkota</span><span>prayatnasapkota.com.np</span></footer>
-  <script src="script.js"></script>
-</body>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <figure class="hero-art" aria-hidden="false">
+          <img
+            src="assets/earth-horizon.jpg"
+            alt="Earth’s blue horizon and sunrise seen from space."
+            width="1024"
+            height="1024"
+            fetchpriority="high"
+            style="display:block;width:100%;height:100%;object-fit:cover;object-position:center;"
+          >
+        </figure>
+
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <h1 id="hero-title">Prayatna</h1>
+        </div>
+        <a class="hero-down" href="#about" aria-label="Scroll to About">
+          <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="about-wrap" data-reveal>
+          <div class="about-marker">01 <span>ABOUT</span></div>
+
+          <div class="about-title">
+            <h2 id="about-title">About<br><span>Me</span></h2>
+            <div class="sun-symbol" aria-hidden="true"><i></i></div>
+          </div>
+
+          <div class="about-text">
+            <p>I'm Prayatna, a Geomatics Engineering student at Kathmandu University, Nepal.I'm interested in space, astronomy, and physics. I like learning new things, asking questions, and understanding how things work.I'm still learning and exploring new ideas. This website is where I share some of my work and what I discover along the way.</p>
+            <p>This site is a home for ideas in progress. The work here is a beginning: a way to frame questions, not a claim of settled answers.</p>
+
+            <div class="interest-tags">
+              <span>GEOMATICS</span>
+              <span>ASTRONOMY</span>
+              <span>PHYSICS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="research" id="research" aria-labelledby="research-title">
+        <div class="section-wrap">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow"><span>02</span> My First research</p>
+            <h2 id="research-title">Life, without<br><span>an address.</span></h2>
+            <p class="section-aside">A first thought about what might travel between stars.</p>
+          </div>
+
+          <article class="paper" data-reveal aria-labelledby="paper-title">
+            <div class="paper-ribbon">
+              <span>OPEN PREPRINT</span>
+              <span>V. 1.0</span>
+              <span>04 MAR 2026</span>
+            </div>
+
+            <div class="paper-body">
+              <div class="paper-number" aria-hidden="true">02</div>
+
+              <div class="paper-copy">
+                <p class="paper-type">CONCEPTUAL HYPOTHESIS <span>↗</span></p>
+                <h3 id="paper-title">A Conceptual Hypothesis for Microbial Survival on Rogue Planets</h3>
+                <p class="paper-summary">Could dormant microbes endure a world’s ejection from its planetary system—and the long crossing through interstellar space? This conceptual exploration considers microbial dormancy and planetary ejection scenarios.</p>
+
+                <p class="caveat">
+                  <span class="caveat-mark">!</span>
+                  No mathematical modeling is presented. This is a starting point for future probability-based and theoretical research.
+                </p>
+
+                <div class="paper-author">
+                  <span>Prayatna Sapkota</span>
+                  <span>Independent Researcher</span>
+                </div>
+
+                <div class="paper-actions">
+                  <a class="button-dark"
+                    href="https://zenodo.org/records/18859992"
+                    target="_blank" rel="noopener noreferrer">
+                    Open the Zenodo record <span aria-hidden="true">↗</span>
+                  </a>
+
+                  <a class="download-link"
+                    href="https://zenodo.org/records/18859992/files/A_Conceptual_Hypothesis_for_Microbial_Survival_on_Rogue_Planets.pdf?download=1"
+                    target="_blank" rel="noopener noreferrer">
+                    Read the PDF <span aria-hidden="true">↓</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <aside class="paper-side" aria-label="Publication record details">
+              <div class="orbit-glyph" aria-hidden="true"><span></span></div>
+              <p>RECORD<br><strong>18859992</strong></p>
+              <p>VERSION<br><strong>1.0 / PREPRINT</strong></p>
+              <p>PUBLISHED<br><strong>2026/03/04</strong></p>
+              <p>Last Updated<br><strong>2026/10/10</strong></p>
+              <a href="https://zenodo.org/records/18859992"
+                target="_blank" rel="noopener noreferrer">
+                VERIFY ON ZENODO ↗
+              </a>
+            </aside>
+          </article>
+
+          <div class="research-foot" data-reveal>
+            <span>OPEN KNOWLEDGE / 2026</span>
+            <span>02 — A QUESTION, NOT AN ANSWER</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="cv-strip" id="cv" aria-labelledby="cv-title">
+        <div class="cv-inner">
+          <div class="cv-label"><span>03</span> / CURRICULUM VITAE</div>
+          <h2 id="cv-title">CV</h2>
+          <a class="cv-download" href="assets/prayatna-sapkota-cv.pdf" download>
+            Download CV <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- CONTACT: compact layout, smaller text, scalable inline SVG icons -->
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-wrap" data-reveal
+          style="max-width:1000px;margin-inline:auto;padding-block:clamp(48px,7vw,88px);">
+
+          <p class="eyebrow">
+            <span>04</span> / CONTACT
+          </p>
+
+          <div class="contact-heading"
+            style="display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px;margin-bottom:clamp(20px,4vw,36px);">
+
+            <h2 id="contact-title"
+              style="font-size:clamp(1.7rem,4vw,3.1rem);line-height:1.12;margin:0;max-width:600px;">
+              Have an interesting idea?
+              <br><em>Let's talk.</em>
+            </h2>
+
+            <p style="font-size:clamp(0.78rem,1.5vw,0.9rem);line-height:1.6;max-width:260px;margin:0;opacity:.7;">
+              Research conversations, questions, and thoughtful correspondence.
+            </p>
+          </div>
+
+          <div class="contact-links"
+            style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:10px;">
+
+            <a href="mailto:mail@prayatnasapkota.com.np"
+              aria-label="Send an email to Prayatna"
+              style="display:flex;align-items:center;gap:13px;min-width:0;padding:16px 18px;border:1px solid rgba(255,255,255,.14);border-radius:8px;text-decoration:none;">
+
+              <svg xmlns="http://www.w3.org/2000/svg"
+                width="23" height="23" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true" style="width:23px;height:23px;flex-shrink:0;">
+                <rect x="3" y="5" width="18" height="14" rx="2"/>
+                <path d="m3 7 9 6 9-6"/>
+              </svg>
+
+              <span style="display:flex;flex:1;flex-direction:column;gap:4px;min-width:0;">
+                <span style="font-size:.65rem;letter-spacing:.14em;opacity:.6;">
+                  EMAIL
+                </span>
+                <span style="font-size:clamp(.75rem,1.8vw,.9rem);overflow-wrap:anywhere;line-height:1.5;">
+                  mail@prayatnasapkota.com.np
+                </span>
+              </span>
+
+              <svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true" style="width:16px;height:16px;flex-shrink:0;opacity:.6;">
+                <path d="M7 17 17 7M7 7h10v10"/>
+              </svg>
+            </a>
+
+            <a href="https://signal.me/#eu/DQWrcF0nHfsvhdsGXE6NeDuujot4HZirRwiapg7iBilF1pa9IhpLjKKEA15nIHA4"
+              target="_blank" rel="noopener noreferrer"
+              aria-label="Message Prayatna on Signal"
+              style="display:flex;align-items:center;gap:13px;min-width:0;padding:16px 18px;border:1px solid rgba(255,255,255,.14);border-radius:8px;text-decoration:none;">
+
+              <!-- Signal-inspired messaging icon; scales without an image file -->
+              <svg xmlns="http://www.w3.org/2000/svg"
+                width="23" height="23" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true" style="width:23px;height:23px;flex-shrink:0;">
+                <path d="M12 3.5a8.5 8.5 0 0 0-7.1 13.2L4 20l3.5-1a8.5 8.5 0 1 0 4.5-15.5Z"/>
+                <path d="M8.5 10.5a4 4 0 0 1 4-4"/>
+                <path d="M10 12a2.5 2.5 0 0 1 2.5-2.5"/>
+              </svg>
+
+              <span style="display:flex;flex:1;flex-direction:column;gap:4px;min-width:0;">
+                <span style="font-size:.65rem;letter-spacing:.14em;opacity:.6;">
+                  SIGNAL
+                </span>
+                <span style="font-size:clamp(.8rem,1.8vw,.9rem);line-height:1.5;">
+                  Message Me On Signal
+                </span>
+              </span>
+
+              <svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true" style="width:16px;height:16px;flex-shrink:0;opacity:.6;">
+                <path d="M7 17 17 7M7 7h10v10"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-main">
+        <a class="footer-name" href="#top">PRAYATNA<br>SAPKOTA<span>.</span></a>
+        <div class="footer-note">GEOMATICS / ASTRONOMY / PHYSICS<br>KATHMANDU, NEPAL</div>
+        <a class="footer-cv" href="assets/prayatna-sapkota-cv.pdf" download>
+          DOWNLOAD CV <span aria-hidden="true">↘</span>
+        </a>
+      </div>
+
+      <div class="footer-base">
+        <span>© 2024–2026 Prayatna Sapkota</span>
+        <a href="#top">BACK TO TOP ↑</a>
+      </div>
+    </footer>
+  </body>
 </html>
