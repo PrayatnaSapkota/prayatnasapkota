@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 620" fill="none">
+  <defs>
+    <radialGradient id="world" cx="32%" cy="25%" r="77%">
+      <stop stop-color="#dfff48"/>
+      <stop offset=".38" stop-color="#f04425"/>
+      <stop offset="1" stop-color="#151719"/>
+    </radialGradient>
+    <linearGradient id="track" x1="106" y1="452" x2="624" y2="173" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#344ff0" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#344ff0"/>
+      <stop offset=".7" stop-color="#f04425"/>
+      <stop offset="1" stop-color="#f04425" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="disc"><circle cx="363" cy="305" r="143"/></clipPath>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0v28" stroke="#f1eee7" stroke-opacity=".13" stroke-width=".7"/>
+    </pattern>
+  </defs>
+  <circle cx="364" cy="306" r="286" fill="url(#grid)"/>
+  <g stroke="#f1eee7" stroke-opacity=".26" stroke-width="1">
+    <circle cx="363" cy="305" r="202"/>
+    <circle cx="363" cy="305" r="259" stroke-dasharray="2 8"/>
+    <path d="M45 305h636M363 18v574"/>
+    <ellipse cx="363" cy="305" rx="143" ry="235"/>
+    <ellipse cx="363" cy="305" rx="229" ry="84"/>
+    <path d="M168 205h390M153 406h422" stroke-dasharray="2 7"/>
+  </g>
+  <g fill="#ddff42">
+    <circle cx="105" cy="157" r="3"/><circle cx="157" cy="88" r="2"/>
+    <circle cx="579" cy="107" r="3"/><circle cx="631" cy="230" r="2"/>
+    <circle cx="590" cy="493" r="3"/><circle cx="183" cy="520" r="2"/>
+    <circle cx="82" cy="369" r="2"/><circle cx="454" cy="62" r="2"/>
+  </g>
+  <ellipse cx="364" cy="304" rx="283" ry="89" transform="rotate(-28 364 304)" stroke="url(#track)" stroke-width="2" stroke-dasharray="4 6"/>
+  <path d="M118 443 83 460H35" stroke="#b75cff" stroke-width="2"/>
+  <circle cx="118" cy="443" r="6" fill="#ddff42" stroke="#111216" stroke-width="2"/>
+  <circle cx="363" cy="305" r="143" fill="url(#world)" stroke="#f1eee7" stroke-width="2"/>
+  <g clip-path="url(#disc)">
+    <path d="M205 279c52-38 83-19 125-56 43-38 63-43 107-21 32 16 68 7 108-15v111c-38 19-69 8-101 25-43 22-69 43-119 29-37-10-79 1-120 24z" fill="#344ff0"/>
+    <path d="M204 349c48-28 90-12 120-34 42-30 70-49 116-34 40 14 61 42 113 19v71c-45 4-68-20-111-5-46 16-83 48-130 32-42-14-63-22-108 0z" fill="#f3efdf"/>
+    <path d="M217 236c45 21 63 29 93 16 42-19 65-52 103-37 32 12 46 35 80 27 19-4 37-14 58-16" stroke="#dfff48" stroke-width="5"/>
+    <path d="M221 393c41-21 78-27 107-17 35 12 58 31 96 13 35-16 58-38 94-32 17 3 32 10 50 7" stroke="#151719" stroke-opacity=".8" stroke-width="2"/>
+    <path d="M282 170c44 78 50 156 24 276M373 161c-32 72-35 166 4 288M438 179c-22 55-25 144 16 237" stroke="#151719" stroke-opacity=".22" stroke-width="2"/>
+  </g>
+  <ellipse cx="364" cy="304" rx="284" ry="89" transform="rotate(-28 364 304)" stroke="#f1eee7" stroke-width="1.5"/>
+  <circle cx="617" cy="192" r="6" fill="#ddff42" stroke="#111216" stroke-width="2"/>
+  <path d="M617 192h39l13-13" stroke="#f1eee7" stroke-width="2"/>
+  <g stroke="#f04425" stroke-width="2">
+    <circle cx="363" cy="305" r="7" fill="#f3efdf"/>
+    <path d="M363 287v11m0 14v11m-25-18h17m16 0h17"/>
+  </g>
+  <g fill="#f1eee7" font-family="monospace" font-size="9" font-weight="bold" letter-spacing="1.4">
+    <text x="41" y="487">RA 06h 41m</text>
+    <text x="534" y="153">DECL. +22°</text>
+    <text x="527" y="541">FIELD / 01</text>
+  </g>
+  <path d="m159 217 13-13m-13 0 13 13M546 406l13-13m-13 0 13 13" stroke="#f04425" stroke-width="3"/>
+</svg>
